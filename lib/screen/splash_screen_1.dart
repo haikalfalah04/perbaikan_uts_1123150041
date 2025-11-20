@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:haikal_uts/screen/splash_screen_2.dart';
+import 'package:perbaikan_uts/screen/splash_screen_2.dart';
 
 class MySplashScreen extends StatelessWidget {
   const MySplashScreen({super.key});
@@ -131,12 +131,12 @@ class MySplashScreen extends StatelessWidget {
               ),
             ),
 
-            // 🔹 Tulisan kecil di pojok kiri atas
+            // 🔹 
             const Positioned(
               top: 10,
               left: 10,
               child: Text(
-                "1123150041", // ganti sesuai NIM / tulisan kecil yang kamu mau
+                "1123150041", 
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.teal,
