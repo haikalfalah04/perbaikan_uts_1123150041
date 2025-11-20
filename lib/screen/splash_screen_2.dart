@@ -22,7 +22,7 @@ class MySplashScreen2 extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.amber,
                       image: const DecorationImage(
-                        image: AssetImage("assets/images/imageandromeda.png.png"),
+                        image: AssetImage("assets/images/imageandromeda.png"),
                         fit: BoxFit.cover,
                       ),
                     ),
