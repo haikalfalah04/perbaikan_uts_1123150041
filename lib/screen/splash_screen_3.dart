@@ -22,7 +22,7 @@ class MySplashScreen3 extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.amber,
                       image: const DecorationImage(
-                        image: AssetImage("assets/images/image.png"),
+                        image: AssetImage("assets/images/imageelipss.png"),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -108,7 +108,7 @@ class MySplashScreen3 extends StatelessWidget {
                           ),
                         ),
                         onPressed: () {
-                          // ✅ Pindah ke halaman login dan hapus semua route sebelumnya
+                          
                           Navigator.pushAndRemoveUntil(
                             context,
                             MaterialPageRoute(
