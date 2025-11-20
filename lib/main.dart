@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
-      home: const MySplashScreen(), // pastikan nama class cocok
+      home: const MySplashScreen(), 
       debugShowCheckedModeBanner: false,
     );
   }
